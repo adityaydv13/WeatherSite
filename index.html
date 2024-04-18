@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Weather App</title>
+</head>
+<body>
+  <form id="cityForm" action="">
+    <div class="container">
+        <br>
+        <h1>Weather App</h1>
+        <div class="form2">
+            
+            <input type="text" id="cityInput" placeholder="Enter city name:">
+            <br><br>
+            <button id="clicker">Get Weather</button>
+        </div>
+
+        <div class="weather-info">
+            <div class="temp"><h2>23°</h2></div>
+            <h2> <span id="city">City Name</span></h2>
+        </div>
+        <!-- weather condition boxes -->
+        <div class="conditions">
+            <div class="air"> 
+                  <span class="material-symbols-outlined">
+                        air
+                        </span>
+                        <p id="airspeed">3.09 km/h</p>
+                        <p>wind</p>
+                    </div>
+                
+                    <!-- humidity -->
+                    <div class="humidity">
+                        <span class="material-symbols-outlined">
+                            humidity_mid
+                            </span>
+                               <p id="humid">56deg</p>
+                               <p>Humidity</p>
+                    </div>
+                    <!-- visibility -->
+                       <div class="visibility">
+                        <span class="material-symbols-outlined">
+                            visibility
+                            </span>
+                            <p id="visibility">10km</p>
+                            <p>Visibility</p>
+                       </div>
+                
+                     
+
+        
+    </div>
+</form>
+    <script src="a-weather.js"></script>
+</body>
+</html>
